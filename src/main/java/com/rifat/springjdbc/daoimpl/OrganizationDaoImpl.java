@@ -13,10 +13,10 @@ public class OrganizationDaoImpl implements OrganizationDao {
 
 	
 	private JdbcTemplate jdbc;
-	public void setDatasource(DataSource ds) {
-		// TODO Auto-generated method stub
+	public void setDataSource(DataSource dataSource) {
 		
-		jdbc=new JdbcTemplate(ds);
+		
+		jdbc=new JdbcTemplate(dataSource);
 		
 
 	}

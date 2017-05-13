@@ -8,7 +8,7 @@ import com.rifat.springjdbc.domain.Organization;
 
 public interface OrganizationDao {
 	
-	public void setDatasource(DataSource ds);
+	public void setDataSource(DataSource ds);
 	public boolean create (Organization org);
 	public Organization getOrganization(Integer id);
 	public List<Organization> getAllorganization();
